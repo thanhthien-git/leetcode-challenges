@@ -4,7 +4,7 @@ function longestPalindrome(s: string): string {
 
   if (LENGTH < 2) return s[0];
 
-  for (let i = 0; i < LENGTH; i++) {
+  for (let i = 0; i < LENGTH; i++) { 
     let left = i,
       right = i;
 
